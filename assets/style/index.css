@@ -1,0 +1,110 @@
+body {
+    margin: auto;
+}
+
+header {
+    background-color: #385B71;
+}
+ul li {
+    padding-bottom: 8px;
+}
+
+footer {
+    max-width: 100em;
+    min-width: 50em;
+    text-align: center;
+}
+
+footer #contact {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    max-width: 100em;
+    min-width: 50em;
+    text-align: center;
+}
+
+#hdr-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#hdr-profile figcaption {
+    color: white;
+}
+
+#hdr-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 200px;
+}
+
+#navbar-list {
+    margin-top: 0;
+    margin-right: 3em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3em;
+    max-width: 100em;
+    min-width: 43em;
+}
+
+#navbar-list li a {
+    color: #FFFFFF;
+}
+
+#navbar-list li a:hover {
+    color: hsl(210, 14%, 53%);
+}
+
+#navbar-list li {
+    list-style-type: none;
+}
+
+.name-title {
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+h1.name-title {
+    font-size: 2em;
+    color: rgb(235, 115, 40);
+    font-style: oblique;
+}
+
+#profile-picture {
+    border-radius: 100%;
+    padding-bottom: 2em;
+}
+
+#right-side {
+    background-color:#EFEFEF;
+    padding: 2em;
+    width: 50%;
+    border-radius: 30px;
+}
+
+#split-page {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 100em;
+    min-width: 50em;
+    max-height: 180em;
+}
+
+#left-side {
+    padding-top: 2em;
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4em;
+
+}
+
+#profile {
+    width: 25em;
+}

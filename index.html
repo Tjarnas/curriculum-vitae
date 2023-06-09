@@ -5,197 +5,215 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petter CV</title>
+
+    <link rel="stylesheet" href="./assets/style/index.css" type="text/css">
 </head>
 <body>
     <header>
-        <figure>
-        <img src="./assets/img/profile_picture.jpg" alt="Profile Picture of Petter Tjärnås Liljedahl" width="300" height="300">
-        <figcaption>Profile picture - Petter Tjärnås Liljedahl</figcaption>
-        <a href="./assets/img/profile_picture.jpg" download>Download</a>
-        </figure>
-        <h1>PETTER TJÄRNÅS LILJEDAHL</h1>
-        <h2>Project Manager, DSTNY SE</h2>
-        <nav>
-            <ul>
-                <li><a href="#profile">Personal Profile</a></li>
-                <li><a href="#experience">Previous Experience</a></li>
-                <li><a href="#skills">Skillsets</a></li>
-                <li><a href="#competence">Technical Competence</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <section id="hdr-content-navbar">
+            <section id="hdr-content">
+                <section id="hdr-profile">
+                    <figure>
+                        <img id="profile-picture" src="./assets/img/profile_picture.jpg" alt="Profile Picture of Petter Tjärnås Liljedahl" width="300" height="300">
+                        <figcaption>Profile picture - Petter Tjärnås Liljedahl</figcaption>
+                        <a href="./assets/img/profile_picture.jpg" download>Download</a>
+                    </figure>
+                </section>
+                <section id="hdr-text">
+                    <h1 class="name-title">PETTER TJÄRNÅS LILJEDAHL</h1>
+                    <h2 class="name-title">PROJECT MANAGER, DSTNY SE</h2>
+                </section>
+            </section>
+            <nav>
+                <ul id="navbar-list">
+                    <li><a href="#profile">Personal Profile</a></li>
+                    <li><a href="#experience">Previous Experience</a></li>
+                    <li><a href="#skills">Skillsets</a></li>
+                    <li><a href="#competence">Technical Competence</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
     <main>
-        <section id="profile">
-            <h3>PERSONAL PROFILE</h3>
-            <p>
-                Effective problem solver with very good organizational 
-                skills who enjoys leading and collaborating. Great social commitment 
-                with excellent knowledge of English in both speech and writing.
-            </p>
-            <a href="./assets/pages/about.html">More about me</a>
+        <section id="split-page">
+            <section id="right-side">
+                <section id="experience">
+                    <h3>PREVIOUS EXPERIENCE</h3>
+                    <details>
+                        <summary>Nordströms Assistans</summary>
+                        <time>July 2010 - November 2014</time>
+                        <ul>
+                            <li>Nordström Assistans, Caretaker</li>
+                        </ul>
+                        <h4>Job Description:</h4>
+                        <p>
+                            As a <strong>caregiver</strong> i provided assistance and support to an
+                            individual who were unable to care for himself due to physical limitations. 
+                            My responsibilities typically included providing personal care, such as bathing and dressing, 
+                            administering medications, assisting with mobility, preparing meals, and offering companionship. 
+                            My primary focus was to ensure the <em>well-being</em> and <em>comfort</em> of the individual I cared for.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>HI3G Access AB</summary>
+                        <time>March 2015 - December 2017</time>
+                        <ul>
+                            <li>Hi3G Access AB, Customer Service</li>
+                            <li>Hi3G Access AB, Sales Support (B2B)</li>
+                            <li>Hi3G Access AB, Migration Coordinator (B2B)</li>
+                        </ul>
+                        <h4>Job Description</h4>
+                        <ol>
+                            <li><strong>Customer Service (2015)</strong></li>
+                            <ul>
+                                <li>Provided exceptional customer service by promptly addressing inquiries, resolving issues, and ensuring customer satisfaction.</li>
+                                <li>Demonstrated excellent communication skills to effectively assist customers with product or service-related queries.</li>
+                                <li>Maintained a positive and helpful demeanor while delivering personalized support to meet individual customer needs.</li>
+                            </ul>
+                            <li><strong>Sales Support (2016)</strong></li>
+                            <ul>
+                                <li>Assisted the sales team by providing comprehensive administrative support, contributing to the smooth functioning of sales operations.</li>
+                                <li>Managed and organized documentation related to customer orders, ensuring accuracy and efficiency.</li>
+                                <li>Collaborated with internal teams to facilitate seamless communication and coordination throughout the sales process.</li>
+                            </ul>
+                            <li><strong>Migration Coordinator (2017)</strong></li>
+                            <ul>
+                                <li>Coordinated the migration process for customers transferring between services and accounts to Hi3G Access AB, ensuring a seamless transition.</li>
+                                <li>Exhibited organizational skills to manage migration timelines, resources, and customer expectations effectively.</li>
+                                <li>Addressed any challenges or issues that arose during the migration process, providing timely and effective resolutions.</li>
+                            </ul>
+                        </ol>
+                        <p>
+                            Throughout my journey at Hi3G Access AB, 
+                            I <em>consistently</em> demonstrated a commitment to delivering exceptional service, 
+                            fostering <em>positive</em> relationships with customers and colleagues alike, 
+                            and contributing to the overall <em>success</em> of the organization.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Soluno BC</summary>
+                        <time>December 2017 - February 2022</time>
+                        <ul>
+                            <li>Soluno BC, Support Technician</li>
+                            <li>Soluno BC, Project Manager</li>
+                            <li>Soluno BC, Service Manager</li>
+                        </ul>
+                        <h4>Job Description</h4>
+                        <ol>
+                            <li><Strong>Support Technician (2017)</Strong></li>
+                            <ul>
+                                <li>Provided technical support to customers, troubleshooting hardware and software issues, and resolving technical problems promptly.</li>
+                                <li>Demonstrated a strong understanding of the company's products and services to effectively address customer inquiries and provide solutions.</li>
+                                <li>Collaborated with cross-functional teams to escalate complex issues and ensure timely resolution, maintaining a high level of customer satisfaction.</li>
+                            </ul>
+                            <li><strong>Project Manager (2019)</strong></li>
+                            <ul>
+                                <li>Led and managed various projects, overseeing their successful initiation, planning, execution, monitoring, and completion.</li>
+                                <li>Developed and maintained project plans, timelines, and budgets, ensuring adherence to quality standards and project goals.</li>
+                                <li>Effectively communicated project progress, milestones, and risks to stakeholders, fostering strong relationships and managing expectations.</li>
+                            </ul>
+                            <li><strong>Service Manager (2020)</strong></li>
+                            <ul>
+                                <li>Oversaw the service delivery operations, ensuring the highest level of service quality and customer satisfaction.</li>
+                                <li>Managed a team of service professionals, providing guidance, training, and support to drive their performance and professional growth.</li>
+                                <li>Collaborated with cross-functional teams to improve service processes, implement best practices, and optimize service delivery efficiency.</li>
+                            </ul>
+                        </ol>
+                        <p>
+                            Throughout my time at Soluno BC, I <em>consistently</em> demonstrated 
+                            technical expertise, and a customer-centric approach. 
+                            I successfully leveraged my skills and <em>experience</em> to contribute to the 
+                            overall success of the organization 
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Klarna AB</summary>
+                        <time>March 2022 - June 2022</time>
+                        <ul>
+                            <li>Klarna AB, Delivery Associate</li>
+                        </ul>
+                        <h4>Job Description</h4>
+                        <ol>
+                            <li><strong>Delivery Associate (2022)</strong></li>
+                            <ul>
+                                <li>Perform the technical implementation and support for onboarding new customers, including: application setup, server account setup, scheduling feeds, and supporting the merchant technical team with setting up the API integration.</li>
+                                <li>Perform thorough troubleshooting and analysis using technical tools such as scripting languages, web services tools, and testing tools.</li>
+                                <li>Work effectively with merchants, technical partners, contractors and internal team members on a regular basis.</li>
+                            </ul>
+                        </ol>
+                        <mark><em>
+                            My employment at Klarna was affected by a major layoff, 
+                            resulting in the conclusion of my tenure. Despite this 
+                            unfortunate circumstance, I remain grateful for the experience 
+                            and skills I gained during my time as a Delivery Associate at Klarna.
+                        </em></mark>
+                    </details>
+
+                    <details>
+                        <summary>Dstny SE</summary>
+                        <time>July 2022 - Present</time>
+                        <ul>
+                            <li>Dstny SE, Project Manager</li>
+                        </ul>
+                        <h4>Job Description</h4>
+                        <ol>
+                            <li><strong>Project Manager (present)</strong></li>
+                            <ul>
+                                <li>Led and managed various projects, overseeing their successful initiation, planning, execution, monitoring, and completion.</li>
+                                <li>Developed and maintained project plans, timelines, and budgets, ensuring adherence to quality standards and project goals.</li>
+                                <li>Effectively communicated project progress, milestones, and risks to stakeholders, fostering strong relationships and managing expectations.</li>
+                            </ul>
+                        </ol>
+                    </details>
+                </section>
+
+                <section id="skills">
+                    <h3>SKILLSETS</h3>
+                    <ul>
+                        <li>Determined</li>
+                        <li>Agile</li>
+                        <li>Communication (Oral & Written)</li>
+                        <li>Team-oriented</li>
+                        <li>Initiative</li>
+                        <li>Critical Thinking</li>
+                        <li>Project Management</li>
+                        <li>B2B</li>
+                    </ul>
+                </section>
+            </section>
+        
+            <aside id="left-side">
+                <section id="profile">
+                    <h3>PERSONAL PROFILE</h3>
+                    <p>
+                        Effective problem solver with very good organizational 
+                        skills who enjoys leading and collaborating. Great social commitment 
+                        with excellent knowledge of English in both speech and writing.
+                    </p>
+                    <a href="./pages/about.html">More about me</a>
+                </section>
+
+                <section id="competence">
+                    <h3>TECHNICAL COMPETENCE</h3>
+                    <ul>
+                        <li>Excel: <meter min="0" max="7" value="4"></meter></li>
+                        <li>Dynamics: <meter min="0" max="7" value="2"></meter></li>
+                        <li>Mitel Telepo: <meter min="0" max="7" value="7"></meter></li>
+                        <li>HTML: <meter min="0" max="7" value="3"></meter></li>
+                        <li>CSS: <meter min="0" max="7" value="3"></meter></li>
+                        <li>JavaScript: <meter min="0" max="7" value="2"></meter></li>
+                        <li>Money in bank account: <meter min="0" max="7" value="0"></meter></li>
+                    </ul>
+                </section>
+                           
+            </aside>    
         </section>
-
-        <section id="experience">
-            <h3>PREVIOUS EXPERIENCE</h3>
-            <details>
-                <summary>Nordströms Assistans</summary>
-                <time>July 2010 - November 2014</time>
-                <ul>
-                    <li>Nordström Assistans, Caretaker</li>
-                </ul>
-                <h4>Job Description:</h4>
-                <p>
-                    As a <strong>caregiver</strong> i provided assistance and support to an
-                    individual who were unable to care for himself due to physical limitations. 
-                    My responsibilities typically included providing personal care, such as bathing and dressing, 
-                    administering medications, assisting with mobility, preparing meals, and offering companionship. 
-                    My primary focus was to ensure the <em>well-being</em> and <em>comfort</em> of the individual I cared for.
-                </p>
-            </details>
-
-            <details>
-                <summary>HI3G Access AB</summary>
-                <time>March 2015 - December 2017</time>
-                <ul>
-                    <li>Hi3G Access AB, Customer Service</li>
-                    <li>Hi3G Access AB, Sales Support (B2B)</li>
-                    <li>Hi3G Access AB, Migration Coordinator (B2B)</li>
-                </ul>
-                <h4>Job Description</h4>
-                <ol>
-                    <li><strong>Customer Service (2015)</strong></li>
-                    <ul>
-                        <li>Provided exceptional customer service by promptly addressing inquiries, resolving issues, and ensuring customer satisfaction.</li>
-                        <li>Demonstrated excellent communication skills to effectively assist customers with product or service-related queries.</li>
-                        <li>Maintained a positive and helpful demeanor while delivering personalized support to meet individual customer needs.</li>
-                    </ul>
-                    <li><strong>Sales Support (2016)</strong></li>
-                    <ul>
-                        <li>Assisted the sales team by providing comprehensive administrative support, contributing to the smooth functioning of sales operations.</li>
-                        <li>Managed and organized documentation related to customer orders, ensuring accuracy and efficiency.</li>
-                        <li>Collaborated with internal teams to facilitate seamless communication and coordination throughout the sales process.</li>
-                    </ul>
-                    <li><strong>Migration Coordinator (2017)</strong></li>
-                    <ul>
-                        <li>Coordinated the migration process for customers transferring between services and accounts to Hi3G Access AB, ensuring a seamless transition.</li>
-                        <li>Exhibited organizational skills to manage migration timelines, resources, and customer expectations effectively.</li>
-                        <li>Addressed any challenges or issues that arose during the migration process, providing timely and effective resolutions.</li>
-                    </ul>
-                </ol>
-                <p>
-                    Throughout my journey at Hi3G Access AB, 
-                    I <em>consistently</em> demonstrated a commitment to delivering exceptional service, 
-                    fostering <em>positive</em> relationships with customers and colleagues alike, 
-                    and contributing to the overall <em>success</em> of the organization.
-                </p>
-            </details>
-
-            <details>
-                <summary>Soluno BC</summary>
-                <time>December 2017 - February 2022</time>
-                <ul>
-                    <li>Soluno BC, Support Technician</li>
-                    <li>Soluno BC, Project Manager</li>
-                    <li>Soluno BC, Service Manager</li>
-                </ul>
-                <h4>Job Description</h4>
-                <ol>
-                    <li><Strong>Support Technician (2017)</Strong></li>
-                    <ul>
-                        <li>Provided technical support to customers, troubleshooting hardware and software issues, and resolving technical problems promptly.</li>
-                        <li>Demonstrated a strong understanding of the company's products and services to effectively address customer inquiries and provide solutions.</li>
-                        <li>Collaborated with cross-functional teams to escalate complex issues and ensure timely resolution, maintaining a high level of customer satisfaction.</li>
-                    </ul>
-                    <li><strong>Project Manager (2019)</strong></li>
-                    <ul>
-                        <li>Led and managed various projects, overseeing their successful initiation, planning, execution, monitoring, and completion.</li>
-                        <li>Developed and maintained project plans, timelines, and budgets, ensuring adherence to quality standards and project goals.</li>
-                        <li>Effectively communicated project progress, milestones, and risks to stakeholders, fostering strong relationships and managing expectations.</li>
-                    </ul>
-                    <li><strong>Service Manager (2020)</strong></li>
-                    <ul>
-                        <li>Oversaw the service delivery operations, ensuring the highest level of service quality and customer satisfaction.</li>
-                        <li>Managed a team of service professionals, providing guidance, training, and support to drive their performance and professional growth.</li>
-                        <li>Collaborated with cross-functional teams to improve service processes, implement best practices, and optimize service delivery efficiency.</li>
-                    </ul>
-                </ol>
-                <p>
-                    Throughout my time at Soluno BC, I <em>consistently</em> demonstrated 
-                    technical expertise, and a customer-centric approach. 
-                    I successfully leveraged my skills and <em>experience</em> to contribute to the 
-                    overall success of the organization 
-                </p>
-            </details>
-
-            <details>
-                <summary>Klarna AB</summary>
-                <time>March 2022 - June 2022</time>
-                <ul>
-                    <li>Klarna AB, Delivery Associate</li>
-                </ul>
-                <h4>Job Description</h4>
-                <ol>
-                    <li><strong>Delivery Associate (2022)</strong></li>
-                    <ul>
-                        <li>Perform the technical implementation and support for onboarding new customers, including: application setup, server account setup, scheduling feeds, and supporting the merchant technical team with setting up the API integration.</li>
-                        <li>Perform thorough troubleshooting and analysis using technical tools such as scripting languages, web services tools, and testing tools.</li>
-                        <li>Work effectively with merchants, technical partners, contractors and internal team members on a regular basis.</li>
-                    </ul>
-                </ol>
-                <mark><em>
-                    My employment at Klarna was affected by a major layoff, 
-                    resulting in the conclusion of my tenure. Despite this 
-                    unfortunate circumstance, I remain grateful for the experience 
-                    and skills I gained during my time as a Delivery Associate at Klarna.
-                </em></mark>
-            </details>
-
-            <details>
-                <summary>Dstny SE</summary>
-                <time>July 2022 - Present</time>
-                <ul>
-                    <li>Dstny SE, Project Manager</li>
-                </ul>
-                <h4>Job Description</h4>
-                <ol>
-                    <li><strong>Project Manager (present)</strong></li>
-                    <ul>
-                        <li>Led and managed various projects, overseeing their successful initiation, planning, execution, monitoring, and completion.</li>
-                        <li>Developed and maintained project plans, timelines, and budgets, ensuring adherence to quality standards and project goals.</li>
-                        <li>Effectively communicated project progress, milestones, and risks to stakeholders, fostering strong relationships and managing expectations.</li>
-                    </ul>
-                </ol>
-            </details>
-        </section>
-
-        <section id="skills">
-            <h3>SKILLSETS</h3>
-            <ul>
-                <li>Determined</li>
-                <li>Agile</li>
-                <li>Communication (Oral & Written)</li>
-                <li>Team-oriented</li>
-                <li>Initiative</li>
-                <li>Critical Thinking</li>
-                <li>Project Management</li>
-                <li>B2B</li>
-            </ul>
-        </section>
-
-        <section id="competence">
-            <h3>TECHNICAL COMPETENCE</h3>
-            <ul>
-                <li>Excel: <meter min="0" max="7" value="4"></meter></li>
-                <li>Dynamics: <meter min="0" max="7" value="2"></meter></li>
-                <li>Mitel Telepo: <meter min="0" max="7" value="7"></meter></li>
-                <li>HTML: <meter min="0" max="7" value="3"></meter></li>
-                <li>CSS: <meter min="0" max="7" value="3"></meter></li>
-                <li>JavaScript: <meter min="0" max="7" value="2"></meter></li>
-                <li>Money in bank account: <meter min="0" max="7" value="0"></meter></li>
-            </ul>
-        </section>
-
+    </main>
+    <footer>
         <section id="contact">
             <h3>CONTACT</h3>
             <address>
@@ -206,7 +224,7 @@
                 SWEDEN
             </address>
         </section>
-    </main>
-    <footer> All rights reserved</footer>
+        All rights reserved 2023.
+    </footer>
 </body>
 </html>
