@@ -15,7 +15,7 @@ footer {
     text-align: center;
 }
 
-footer #contact {
+footer .contact {
     padding-top: 2em;
     padding-bottom: 2em;
     max-width: 100em;
@@ -23,23 +23,23 @@ footer #contact {
     text-align: center;
 }
 
-#hdr-content {
+.hdr-content {
     display: flex;
     flex-direction: row;
 }
 
-#hdr-profile figcaption {
+.hdr-profile figcaption {
     color: white;
 }
 
-#hdr-text {
+.hdr-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-width: 200px;
 }
 
-#navbar-list {
+.navbar-list {
     margin-top: 0;
     margin-right: 3em;
     padding-bottom: 1em;
@@ -50,15 +50,15 @@ footer #contact {
     min-width: 43em;
 }
 
-#navbar-list li a {
+.navbar-list li a {
     color: #FFFFFF;
 }
 
-#navbar-list li a:hover {
+.navbar-list li a:hover {
     color: hsl(210, 14%, 53%);
 }
 
-#navbar-list li {
+.navbar-list li {
     list-style-type: none;
 }
 
@@ -79,14 +79,14 @@ h1.name-title {
     padding-bottom: 2em;
 }
 
-#right-side {
+.right-side {
     background-color:#EFEFEF;
     padding: 2em;
     width: 50%;
     border-radius: 30px;
 }
 
-#split-page {
+.split-page {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -95,7 +95,7 @@ h1.name-title {
     max-height: 180em;
 }
 
-#left-side {
+.left-side {
     padding-top: 2em;
     padding-left: 2em;
     display: flex;
@@ -105,6 +105,6 @@ h1.name-title {
 
 }
 
-#profile {
+.profile {
     width: 25em;
 }
