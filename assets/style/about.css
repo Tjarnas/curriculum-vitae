@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #385B71;
+    height: 408px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h2 {
+    font-size: 3em;
+    color: rgb(235, 115, 40);
+    font-style: oblique;
+    text-shadow: 2px 2px black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-background {
+    margin-top: 2em;
+    background-color:#EFEFEF;
+    border-radius: 30px;
+    max-width: 80em;
+    min-width: 70em;
+}
+
+section.main-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me, .extra {
+    width: 630px;
+    margin-top: 2em;
+}
+
+.extra-form, .booking {
+    width: 630px;
+}
+
+input[id="fname"]:focus:invalid {
+    border: 2px solid red;
+}
+
+input[id="fname"]:focus:invalid + span::before {
+    content: "✖";
+    color: red;
+}
+
+input[id="fname"]:valid {
+    border: 2px solid green;
+}
+
+input[id="fname"]:valid + span::before {
+    content: "✓";
+    color: green;
+}
+
+input[type="email"]:focus:user-invalid {
+    border: 2px solid red
+}
+
+input[type="email"]:focus:user-invalid + span::before {
+    content: "✖ invalid email";
+    color: red;
+}
+
+input[type="email"]:user-valid {
+    border: 2px solid green;
+}
+
+input[type="email"]:user-valid + span::before {
+    content: "✓";
+    color: green;
+}
+
+input:hover:not([type="submit"]) {
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+input:in-range[type="date"] {
+    background-color: palegreen;
+}
+
+input:out-of-range[type="date"] {
+    background-color: lightcoral;
+}

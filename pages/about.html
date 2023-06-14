@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style/about.css" type="text/css">
     <title>About me</title>
 </head>
 <body>
@@ -11,76 +12,90 @@
         <h2>Petter Tjärnås Liljedahl</h2>
     </header>
     <main>
-        <section>
-            <h3>About me:</h3>
-            <p>
-                Hello there!
-
-                I'm Petter Tjärnås Liljedahl, a 32-year-old dude with a knack for all things social. 
-                I mean, seriously, what could be better than working in a field where I can flex my social 
-                and service-oriented muscles to charm customers, contacts, and partners? 
-                Right now, I'm rockin' the title of Project Manager, which comes with a wild mix of tasks. 
-                Picture me as a <abbr title="Private Branch eXchange">PBX</abbr> maestro, crafting PBX solutions for businesses while also 
-                providing kickass support to get those solutions up and running smoothly. And let's not forget my 
-                superhero talent for troubleshooting within Mitel's switchboard platform. 
-                I decipher all the tech jargon and make sure necessary actions are taken. 
-                Oh, and as a bonus, I'm the official transcriber of mind-blowing info between operators and 
-                customers, revealing the secrets of useful features. If you ask my current and former colleagues, 
-                they'd say I'm a wizard when it comes to solving problems. I've got top-tier organizational skills and 
-                can lead a team like nobody's business. I've been honing my leadership and development chops for six years at 
-                DSTNY SE (formerly known as Soluno BC). Plus, I'm socially committed and have English skills 
-                that would put Shakespeare to shame. But wait, there's more! 
-                I'm not just outgoing; I'm a magnet for new connections. 
-                Need someone who takes charge and gets things done? That's me, your go-to action hero. 
-                I take the initiative and solve problems like a boss, no sidekick needed. So, there you have it!
-            </p>
-        </section>
-
-        <section>
-            <h3>Extra:</h3>
-            <p>
-                Now that we've covered me the <b>awesome</b> Petter Tjärnås Liljedahl and his incredible social skills, 
-                I feel like it's time to take a little detour into the realm of laughter. 
-                Buckle up because I'm about to introduce you to a YouTube clip that will leave you in stitches!
-                Picture this: Tom Segura, the hilarious comedian extraordinaire, takes on none other than Steven Seagal, 
-                the action star with a ponytail that defies gravity. Trust me, this clip is pure gold. <small>please laugh.</small>
-            </p>
-            <video controls muted="false">
-                <source src="/assets/video/tom segura.mp4" type="video/mp4">
+        <section class="main-background">  
+            <section class="about-me">
+                <h3>About me:</h3>
                 <p>
-                    Your browser does not seem to support HTML video. 
-                    Here's a <a href="https://www.youtube.com/watch?v=isNRZJ6icwc">Youtube link</a> instead 
+                    Hello there!
+
+                    I'm Petter Tjärnås Liljedahl, a 32-year-old dude with a knack for all things social. 
+                    I mean, seriously, what could be better than working in a field where I can flex my social 
+                    and service-oriented muscles to charm customers, contacts, and partners? 
+                    Right now, I'm rockin' the title of Project Manager, which comes with a wild mix of tasks. 
                 </p>
-            </video>
-        </section>
+                <p>
+                    Picture me as a <abbr title="Private Branch eXchange">PBX</abbr> maestro, crafting PBX solutions for businesses while also 
+                    providing kickass support to get those solutions up and running smoothly. And let's not forget my 
+                    superhero talent for troubleshooting within Mitel's switchboard platform. 
+                    I decipher all the tech jargon and make sure necessary actions are taken. 
+                    Oh, and as a bonus, I'm the official transcriber of mind-blowing info between operators and 
+                    customers, revealing the secrets of useful features. 
+                </p>
+                <p> If you ask my current and former colleagues, 
+                    they'd say I'm a wizard when it comes to solving problems. I've got top-tier organizational skills and 
+                    can lead a team like nobody's business. I've been honing my leadership and development chops for six years at 
+                    DSTNY SE (formerly known as Soluno BC). Plus, I'm socially committed and have English skills 
+                    that would put Shakespeare to shame. But wait, there's more! 
+                    I'm not just outgoing; I'm a magnet for new connections. 
+                    Need someone who takes charge and gets things done? That's me, your go-to action hero. 
+                    I take the initiative and solve problems like a boss, no sidekick needed. So, there you have it!
+                </p>
+            </section>
 
-        <section>
-            <p>
-                So.. did you think it was funny?
-            </p>
+            <section class="extra">
+                <h3>Extra:</h3>
+                <p>
+                    Now that we've covered me the <b>awesome</b> Petter Tjärnås Liljedahl and his incredible social skills, 
+                    I feel like it's time to take a little detour into the realm of laughter. 
+                    Buckle up because I'm about to introduce you to a YouTube clip that will leave you in stitches!
+                    Picture this: Tom Segura, the hilarious comedian extraordinaire, takes on none other than Steven Seagal, 
+                    the action star with a ponytail that defies gravity. Trust me, this clip is pure gold. <small>please laugh...</small>
+                </p>
+                <video controls muted="false">
+                    <source src="/assets/video/tom segura.mp4" type="video/mp4">
+                    <p>
+                        Your browser does not seem to support HTML video. 
+                        Here's a <a href="https://www.youtube.com/watch?v=isNRZJ6icwc">Youtube link</a> instead 
+                    </p>
+                </video>
+            </section>
 
-            <label for="answer">Input here</label>
-            <select id="answer">
-              <option value="blank"></option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select> 
+            <section class="extra-form">
+                <p>
+                    So.. did you think that was funny?
+                </p>
 
-            <form>
+                <label for="answer">Input here</label>
+                <select id="answer">
+                    <option value="blank"></option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select> 
+
                 <p><label for="feedback">If "No" please elaborate below:</label></p>
                 <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="I demand a proper explaination for this.."></textarea>
-                <br>
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"> <br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"> <br>
-                <input type="submit" value="Submit">
-              </form>
-        </section>
 
+            </section>
+            <section class="booking">
+                <h3>Book a call with me</h3>
+                <form class="contact-info">
+                    <label for="fname">Full name *:</label> <br>
+                    <input type="text" id="fname" name="fname" required>
+                    <span></span> <br>
+                    <label for="email">Email *:</label> <br>
+                    <input type="email" id="email" name="email" required>
+                    <span></span> <br>
+                    <label for="telephone">Phonenumber:</label> <br>
+                    <input type="tel" id="telephone" name="telephone"> <br>
+                    <label for="book">Choose a date: (Whole year 2023 is acceptable)</label> <br>
+                    <input name="book" type="date" min="2023-07-15" max="2023-12-31" value="2023-07-15"> <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </section>
     </main>
     <footer>
-        All rights reserved.
+        All Rights Reserved 2023.
     </footer>
 </body>
 </html>
